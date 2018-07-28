@@ -25,7 +25,7 @@
     <string name="country">Country</string>
     <string name="season">Season</string>
     <string name="open">Open</string>
-    <string name="download">Download</string>
+    <string name="download">Share</string>
 
     <!-- Message texts -->
     <string name="errorFetchMovieData">Error fetching movie data</string>
