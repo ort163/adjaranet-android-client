@@ -27,6 +27,7 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
+import android.util.Log;
 
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
@@ -101,18 +102,15 @@ public class MovieViewNormalActivity extends MovieViewActivity
         downloadButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                DownloadManager downloadManager = (DownloadManager) getSystemService(Context.DOWNLOAD_SERVICE);
-                Uri uri = activeMovie.getPlaybackUri(currentLanguageIndex, currentQualityIndex);
-                DownloadManager.Request request = new DownloadManager.Request(uri);
-                request.setTitle(getResources().getString(R.string.app_name))
-                        .setDescription(activeMovie.getTitleEn())
-                        .setDestinationInExternalPublicDir(Environment.DIRECTORY_DOWNLOADS,
-                                uri.getLastPathSegment())
-                        .setVisibleInDownloadsUi(true)
-                        .setAllowedNetworkTypes(DownloadManager.Request.NETWORK_MOBILE
-                                | DownloadManager.Request.NETWORK_WIFI);
 
-                downloadManager.enqueue(request);
+                Uri uri = activeMovie.getPlaybackUri(currentLanguageIndex, currentQualityIndex);
+                String url1 = uri.toString();
+                Log.d("Adj", "The url is " + url1);
+                Intent sharingIntent = new Intent(android.content.Intent.ACTION_SEND);
+                sharingIntent.setType("text/plain");
+                sharingIntent.putExtra(android.content.Intent.EXTRA_SUBJECT, activeMovie.getTitleEn());
+                sharingIntent.putExtra(android.content.Intent.EXTRA_TEXT, url1);
+                startActivity(Intent.createChooser(sharingIntent, "Sharing Option"));
             }
         });
 
