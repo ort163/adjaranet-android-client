@@ -62,28 +62,28 @@
     </string-array>
 
     <string-array name="CountryKeys">
+        <item>gb</item>
+        <item>in</item>
         <item>ge</item>
         <item>ru</item>
         <item>us</item>
         <item>fr</item>
         <item>de</item>
         <item>it</item>
-        <item>in</item>
         <item>jp</item>
         <item>kr</item>
-        <item>gb</item>
     </string-array>
     <string-array name="CountryValues">
-        <item>საქართველო</item>
-        <item>რუსეთი</item>
-        <item>აშშ</item>
-        <item>საფრანგეთი</item>
-        <item>გერმანია</item>
-        <item>იტალია</item>
-        <item>ინდოეთი</item>
-        <item>იაპონია</item>
-        <item>კორეა</item>
-        <item>დიდი ბრიტანეთი</item>
+        <item>gb</item>
+        <item>in</item>
+        <item>ge</item>
+        <item>ru</item>
+        <item>us</item>
+        <item>fr</item>
+        <item>de</item>
+        <item>it</item>
+        <item>jp</item>
+        <item>kr</item>
     </string-array>
 
 
