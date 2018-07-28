@@ -4,49 +4,49 @@
     <string name="transition_movie" translatable="false">transition_movie</string>
     <string name="description" translatable="false">Description</string>
 
-    <string name="movies">ფილმები</string>
-    <string name="series">სერიალები</string>
+    <string name="movies">Movies</string>
+    <string name="series">Series</string>
     <string name="addToFavorites">Add to favorite</string>
     <string name="removeFromFavorites">Remove from favorite</string>
     <string name="retry">Retry</string>
-    <string name="movieInfo">%1$s  %2$s საათი</string>
-    <string name="viewCount">%1$s ნახვა</string>
-    <string name="seasonInfo">სეზონი: %1$s</string>
-    <string name="episodeInfo">ეპიზოდი: %1$s</string>
-    <string name="related">მსგავსი ფილმები</string>
-    <string name="searchHint">ძიება...</string>
-    <string name="filterTitle">გაფილტვრა</string>
-    <string name="filterError">შეცდომა</string>
+    <string name="movieInfo">%1$s  %2$s movieInfo</string>
+    <string name="viewCount">%1$s viewCount</string>
+    <string name="seasonInfo">seasonInfo: %1$s</string>
+    <string name="episodeInfo">episodeInfo: %1$s</string>
+    <string name="related">Related</string>
+    <string name="searchHint">searchHint</string>
+    <string name="filterTitle">fTitle</string>
+    <string name="filterError">fError</string>
     <string name="filterReset">RESET</string>
-    <string name="year">წელი</string>
-    <string name="yearFrom">დან</string>
-    <string name="yearTo">მდე</string>
-    <string name="language">ენა</string>
-    <string name="country">ქვეყანა</string>
-    <string name="season">სეზონი</string>
-    <string name="open">გახსნა</string>
-    <string name="download">გადმოწერა</string>
+    <string name="year">Year</string>
+    <string name="yearFrom">YearFrom</string>
+    <string name="yearTo">YearTo</string>
+    <string name="language">Lang</string>
+    <string name="country">Country</string>
+    <string name="season">Season</string>
+    <string name="open">Open</string>
+    <string name="download">Download</string>
 
     <!-- Message texts -->
     <string name="errorFetchMovieData">Error fetching movie data</string>
     <string name="notSupportedYet">Not yet supported</string>
-    <string name="videoPlayerChooserMessage">აირჩიეთ ვიდეო დამკვრელი</string>
+    <string name="videoPlayerChooserMessage">videoPlayerChooser</string>
 
     <string-array name="Sections">
-        <item>ქართულად გახმოვანებული</item>
-        <item>ახალი დამატებული</item>
-        <item>პრემიერა</item>
+        <item>in GE</item>
+        <item>Newly added</item>
+        <item>Premiere</item>
         <!--<item>TOP სერიალები</item>-->
     </string-array>
 
     <string-array name="LanguageKeys">
-        <item>georgian</item>
         <item>english</item>
+        <item>georgian</item>
         <item>russian</item>
     </string-array>
     <string-array name="LanguageValues">
-        <item>Georgian</item>
         <item>English</item>
+        <item>Georgian</item>
         <item>Russian</item>
     </string-array>
 
